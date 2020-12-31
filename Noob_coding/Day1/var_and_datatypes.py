@@ -6,7 +6,7 @@ print("there was once a man called "+character_name+",")    #concatenate
 print("he was "+character_age+" years old.")
 
 #datatypes
-character_name = "hakka"    #changes the variables value halfway through the program
+character_name = "John"     #changes the variables value halfway through the program
 character_age = 45          #number
 is_male = True              #boolean
 print("he really liked his name " +character_name+",")
