@@ -1,0 +1,14 @@
+n1 = int(input("Enter a number: "))
+op = input("specify an operation'+, -, /, *' :")
+n2 = int(input("enter a number: "))
+
+if op == "+":
+    print(n1 + n2)
+elif op == "-":
+    print(n1 - n2)
+elif op == "*":
+    print(n1 * n2)
+elif op == "/":
+    print(n1 / n2)
+else:
+    print("Invalid operation!")
