@@ -1,4 +1,4 @@
-import time         #for delay
+import time                         #for delay
 i = 10
 
 while i >= 1:                       #if true, jump to next statement; else, escape the loop
