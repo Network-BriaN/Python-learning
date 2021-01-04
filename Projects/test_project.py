@@ -6,7 +6,7 @@ class Question:
 question_prompts = [
     "What color are apples?\n(a) Red\n(b) Blue\n(c) Purple\n(d) Brown\n\n",
     "What color are bananas?\n(a) Blue\n(b) Yellow\n(c) Green\n(d) Orange\n\n",
-    "What is the Capital of India?\n(a) Mumbai\n(b) Chattisgarh\n(c) Delhi\n(d) Trivandrum\n\n"
+    "What is the Capital of India?\n(a) Mumbai\n(b) Chattisgarh\n(c) Delhi\n(d) Bhopal\n\n"
 ]
 
 questions = [
@@ -17,9 +17,9 @@ questions = [
 
 def run_test(questions):
     score = 0
-    for question in questions:
-        ans = input(question.prompt).lower()
-        if ans == question.answer:
+    for i in questions:
+        ans = input(i.prompt).lower()
+        if ans == i.answer:
             score += 1
         else:
             print("explanation\n")
